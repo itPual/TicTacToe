@@ -1,0 +1,59 @@
+﻿#users {
+    text-align: center;
+    height: 500px;
+    overflow-y: scroll;
+    background: #d2dbd8;
+}
+
+#battles {
+    text-align: center;
+    height: 500px;
+    overflow-y: scroll;
+    background: #c3d6f4;
+}
+
+#confirm {
+    margin-top: 10px;
+    text-align: center;
+    height: 100px;
+}
+
+#body {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    width: 610px;
+    height: 610px;
+    margin-top: 3%;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1000%;
+    font-family: giant;
+}
+
+.v {
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+
+.h {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+@font-face {
+    font-family: giant;
+    src: url(GiantBoldInline.otf);
+}
+
+td {
+    cursor: crosshair;
+}
