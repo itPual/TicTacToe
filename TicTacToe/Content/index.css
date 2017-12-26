@@ -1,13 +1,13 @@
 ﻿#users {
     text-align: center;
-    height: 500px;
+    height: 300px;
     overflow-y: scroll;
     background: #d2dbd8;
 }
 
 #battles {
     text-align: center;
-    height: 500px;
+    height: 300px;
     overflow-y: scroll;
     background: #c3d6f4;
 }
@@ -24,18 +24,18 @@
 }
 
 #container {
-    width: 610px;
-    height: 610px;
+    width: 460px;
+    height: 460px;
     margin-top: 3%;
 }
 
 .box {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     margin: 0;
     padding: 0;
     text-align: center;
-    font-size: 1000%;
+    font-size: 700%;
     font-family: giant;
 }
 
@@ -56,4 +56,10 @@
 
 td {
     cursor: crosshair;
+}
+label {
+    margin: 5px;
+}
+input {
+    margin: 5px;
 }
